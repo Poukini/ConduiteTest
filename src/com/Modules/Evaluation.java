@@ -89,7 +89,7 @@ public class Evaluation {
 				System.out.println("Bravo");
 				this.TabEval[i][0] = 1;
 				this.TabEval[i][1] = chrono.getTempsCalcul();
-				this.TabEval[i][2] = TabCalculations[i].getLevel()
+				this.TabEval[i][2] = TabCalculations[i].getLevel();
 			}
 			else{
 				System.out.println("Echec.");

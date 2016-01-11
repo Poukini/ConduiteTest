@@ -68,6 +68,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="AntBuild.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AntBuild.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.02910959">
+              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Score.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Modules/Score.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -88,14 +98,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Evaluation.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Evaluation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Modules/Evaluation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46575344">
-              <caret line="91" column="66" selection-start-line="91" selection-start-column="66" selection-end-line="91" selection-end-column="66" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="75" column="168" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="168" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1452529853524" expanded="true" signature="150:163" placeholder="/**...*/" />
+                <marker date="1452238496000" expanded="true" signature="150:163" placeholder="/**...*/" />
               </folding>
             </state>
           </provider>
@@ -134,10 +144,10 @@
         <option value="$PROJECT_DIR$/src/com/Test/Tester.java" />
         <option value="$PROJECT_DIR$/src/com/Modules/Chrono.java" />
         <option value="$PROJECT_DIR$/src/com/Launcher/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/Modules/Evaluation.java" />
         <option value="$PROJECT_DIR$/src/com/Modules/Calculations.java" />
         <option value="$PROJECT_DIR$/src/com/Test/CalculationsTest.groovy" />
         <option value="$PROJECT_DIR$/AntBuild.xml" />
-        <option value="$PROJECT_DIR$/src/com/Modules/Evaluation.java" />
       </list>
     </option>
   </component>
@@ -544,12 +554,12 @@
       <workItem from="1452239392432" duration="5019000" />
       <workItem from="1452259166551" duration="379000" />
       <workItem from="1452526124566" duration="42000" />
-      <workItem from="1452527750920" duration="995000" />
+      <workItem from="1452527750920" duration="809000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24278000" />
+    <option name="totallyTimeSpent" value="24092000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
@@ -645,7 +655,7 @@
           <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1452529853524" expanded="true" signature="150:163" placeholder="/**...*/" />
+            <marker date="1452238496000" expanded="true" signature="150:163" placeholder="/**...*/" />
           </folding>
         </state>
       </provider>
@@ -701,7 +711,7 @@
           <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1452529853524" expanded="true" signature="150:163" placeholder="/**...*/" />
+            <marker date="1452238496000" expanded="true" signature="150:163" placeholder="/**...*/" />
           </folding>
         </state>
       </provider>
@@ -757,7 +767,7 @@
           <caret line="49" column="48" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1452529853524" expanded="true" signature="150:163" placeholder="/**...*/" />
+            <marker date="1452238496000" expanded="true" signature="150:163" placeholder="/**...*/" />
           </folding>
         </state>
       </provider>
@@ -813,7 +823,7 @@
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1452529853524" expanded="true" signature="150:163" placeholder="/**...*/" />
+            <marker date="1452238496000" expanded="true" signature="150:163" placeholder="/**...*/" />
           </folding>
         </state>
       </provider>
@@ -869,7 +879,7 @@
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1452529853524" expanded="true" signature="150:163" placeholder="/**...*/" />
+            <marker date="1452238496000" expanded="true" signature="150:163" placeholder="/**...*/" />
           </folding>
         </state>
       </provider>
@@ -925,7 +935,7 @@
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1452529853524" expanded="true" signature="150:163" placeholder="/**...*/" />
+            <marker date="1452238496000" expanded="true" signature="150:163" placeholder="/**...*/" />
           </folding>
         </state>
       </provider>
@@ -981,7 +991,7 @@
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1452529853524" expanded="true" signature="150:163" placeholder="/**...*/" />
+            <marker date="1452238496000" expanded="true" signature="150:163" placeholder="/**...*/" />
           </folding>
         </state>
       </provider>
@@ -1034,6 +1044,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Modules/Evaluation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="75" column="168" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="168" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1452238496000" expanded="true" signature="150:163" placeholder="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Modules/Calculations.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1047,14 +1068,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AntBuild.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.02910959">
-          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Test/CalculationsTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1063,14 +1076,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Modules/Evaluation.java">
+    <entry file="file://$PROJECT_DIR$/AntBuild.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46575344">
-          <caret line="91" column="66" selection-start-line="91" selection-start-column="66" selection-end-line="91" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1452529853524" expanded="true" signature="150:163" placeholder="/**...*/" />
-          </folding>
+        <state vertical-scroll-proportion="0.02910959">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
