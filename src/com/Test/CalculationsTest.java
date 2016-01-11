@@ -1,6 +1,7 @@
 package com.Test;
 
 import com.Modules.Calculations;
+import org.junit.Assert.*;
 
 /**
  * Created by Kev1 on 11/01/2016.
@@ -176,7 +177,7 @@ public class CalculationsTest {
         Calculations Test = new Calculations(0);
         Test.ProvideCalc();
         assertEquals(1,Test.getOperatorIndexLimit());
-        assertTrue(1 >= Test.getOperatorIndex())
+        assertTrue(1 >= Test.getOperatorIndex());
     }
 
 

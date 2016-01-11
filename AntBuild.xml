@@ -56,6 +56,41 @@
     <exclude name="**/?*.aj"/>
   </patternset>
   
+  <!-- JDK definitions -->
+  
+  <property name="jdk.bin.1.8_(2)" value="${jdk.home.1.8_(2)}/bin"/>
+  <path id="jdk.classpath.1.8_(2)">
+    <fileset dir="${jdk.home.1.8_(2)}">
+      <include name="jre/lib/charsets.jar"/>
+      <include name="jre/lib/deploy.jar"/>
+      <include name="jre/lib/javaws.jar"/>
+      <include name="jre/lib/jce.jar"/>
+      <include name="jre/lib/jfr.jar"/>
+      <include name="jre/lib/jfxswt.jar"/>
+      <include name="jre/lib/jsse.jar"/>
+      <include name="jre/lib/management-agent.jar"/>
+      <include name="jre/lib/plugin.jar"/>
+      <include name="jre/lib/resources.jar"/>
+      <include name="jre/lib/rt.jar"/>
+      <include name="jre/lib/ext/access-bridge-64.jar"/>
+      <include name="jre/lib/ext/cldrdata.jar"/>
+      <include name="jre/lib/ext/dnsns.jar"/>
+      <include name="jre/lib/ext/jaccess.jar"/>
+      <include name="jre/lib/ext/jfxrt.jar"/>
+      <include name="jre/lib/ext/localedata.jar"/>
+      <include name="jre/lib/ext/nashorn.jar"/>
+      <include name="jre/lib/ext/sunec.jar"/>
+      <include name="jre/lib/ext/sunjce_provider.jar"/>
+      <include name="jre/lib/ext/sunmscapi.jar"/>
+      <include name="jre/lib/ext/sunpkcs11.jar"/>
+      <include name="jre/lib/ext/zipfs.jar"/>
+    </fileset>
+  </path>
+  
+  <property name="project.jdk.home" value="${jdk.home.1.8_(2)}"/>
+  <property name="project.jdk.bin" value="${jdk.bin.1.8_(2)}"/>
+  <property name="project.jdk.classpath" value="jdk.classpath.1.8_(2)"/>
+  
   
   <!-- Project Libraries -->
   
@@ -75,6 +110,9 @@
   <dirname property="module.java_test.basedir" file="${ant.file}"/>
   
   
+  <property name="module.jdk.home.java_test" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.java_test" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.java_test" value="${project.jdk.classpath}"/>
   
   <property name="compiler.args.java_test" value="-encoding windows-1252 -source 8 ${compiler.args}"/>
   
@@ -86,6 +124,7 @@
   </path>
   
   <path id="java_test.module.production.classpath">
+    <path refid="${module.jdk.classpath.java_test}"/>
     <path refid="library.junit-4.10.classpath"/>
   </path>
   
@@ -95,6 +134,7 @@
   </path>
   
   <path id="java_test.module.classpath">
+    <path refid="${module.jdk.classpath.java_test}"/>
     <pathelement location="${java_test.output.dir}"/>
     <path refid="library.junit-4.10.classpath"/>
   </path>
@@ -125,7 +165,7 @@
   
   <target name="compile.module.java_test.production" description="Compile module Java Test; production classes">
     <mkdir dir="${java_test.output.dir}"/>
-    <javac destdir="${java_test.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true">
+    <javac destdir="${java_test.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.java_test}/javac">
       <compilerarg line="${compiler.args.java_test}"/>
       <bootclasspath refid="java_test.module.bootclasspath"/>
       <classpath refid="java_test.module.production.classpath"/>
