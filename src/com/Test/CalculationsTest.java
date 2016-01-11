@@ -1,14 +1,14 @@
-package com.Test
+package com.Test;
 
-import com.Modules.Calculations
+import com.Modules.Calculations;
 
 /**
- * Created by Kev1 on 08/01/2016.
+ * Created by Kev1 on 11/01/2016.
  */
-class CalculationsTest extends groovy.util.GroovyTestCase {
+public class CalculationsTest {
 
     void setUp() {
-        super.setUp()
+        super.setUp();
     }
 
 
@@ -178,5 +178,6 @@ class CalculationsTest extends groovy.util.GroovyTestCase {
         assertEquals(1,Test.getOperatorIndexLimit());
         assertTrue(1 >= Test.getOperatorIndex())
     }
+
 
 }
